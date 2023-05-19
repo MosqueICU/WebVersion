@@ -153,12 +153,12 @@ function AboutSection(props) {
           !isExpanded && 'lg:line-clamp-4'
         )}
       >
-        The Holy Quran is Islam's sacred book, believed to be God's revelation
-        to Prophet Muhammad. It covers theology, morality, and guidance for
-        personal conduct. It emphasizes faith in one God, righteous living, and
-        the importance of prophets. It promotes justice, compassion, and
-        submission to God's will. Muslims consider it the literal word of God,
-        reciting and memorizing it for spiritual guidance.
+        The Holy Quran is Islam&apos;s sacred book, believed to be God&apos;s
+        revelation to Prophet Muhammad. It covers theology, morality, and
+        guidance for personal conduct. It emphasizes faith in one God, righteous
+        living, and the importance of prophets. It promotes justice, compassion,
+        and submission to God&apos;s will. Muslims consider it the literal word
+        of God, reciting and memorizing it for spiritual guidance.
       </p>
       {!isExpanded && (
         <button
@@ -262,7 +262,7 @@ export function Layout({ children }) {
           <AboutSection />
           <h2 className="mt-8 flex items-center font-mono text-sm font-medium leading-7 text-slate-900">
             <PersonIcon className="h-3 w-auto fill-slate-300" />
-            <span className="ml-2.5">Hosted by</span>
+            <span className="ml-2.5">MosqueICU®</span>
           </h2>
           <div className="mt-2 flex gap-6 text-sm font-bold leading-7 text-slate-900">
             {hosts.map((host, hostIndex) => (
